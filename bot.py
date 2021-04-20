@@ -35,6 +35,17 @@ async def send_season_gif(ctx):
     bugs_gif = "https://giphy.com/gifs/facebook-looney-tunes-bugs-bunny-YaXcVXGvBQlEI"
     await ctx.channel.send(bugs_gif)
 
+@bot.command(name="starwar")
+async def send_starwar_gif(ctx):
+    bugs_gif = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4de125fd-9bea-4c3d-85a9-d435be728bba/d9nuq3o-8972eef5-025e-4587-941c-c890305af74a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl0sIm9iaiI6W1t7InBhdGgiOiIvZi80ZGUxMjVmZC05YmVhLTRjM2QtODVhOS1kNDM1YmU3MjhiYmEvZDludXEzby04OTcyZWVmNS0wMjVlLTQ1ODctOTQxYy1jODkwMzA1YWY3NGEuZ2lmIn1dXX0.8ltrfCZHnRqqrilqiE6bsJXdUY4mx6fY88Wqx-xMPgI"
+    await ctx.channel.send(bugs_gif)
+
+
+@bot.command(name="stonk")
+async def send_stonk_gif(ctx):
+    bugs_gif = "https://giphy.com/gifs/looneytunes-looney-tunes-bugs-bunny-pay-day-67ThRZlYBvibtdF9JH"
+    await ctx.channel.send(bugs_gif)
+
 
 def get_gifs(search_key):
     url = "https://api.tenor.com/v1/search"
